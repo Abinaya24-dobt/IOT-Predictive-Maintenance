@@ -17,9 +17,9 @@ SCALER_PATH = os.path.join(os.path.dirname(__file__), '..', 'model')
 try:
     model = joblib.load(os.path.join(MODEL_PATH, 'random_forest_model.joblib'))
     scaler = joblib.load(os.path.join(SCALER_PATH, 'scaler.joblib'))
-    print("✅ Models loaded successfully!")
+    print(" Models loaded successfully!")
 except Exception as e:
-    print(f"⚠️ Error loading models: {e}")
+    print(f" Error loading models: {e}")
     model = None
     scaler = None
 

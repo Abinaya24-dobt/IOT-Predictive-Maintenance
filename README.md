@@ -1,6 +1,6 @@
 # IoT Predictive Maintenance Engine – FactoryGuard AI
 
-## 📌 Project Overview
+##  Project Overview
 FactoryGuard AI is a machine learning–based predictive maintenance system
 designed for manufacturing environments.
 
@@ -9,7 +9,7 @@ so maintenance can be scheduled before breakdowns happen.
 
 ---
 
-## 🏭 Business Use Case
+##  Business Use Case
 Manufacturing machines are equipped with sensors that record:
 - Air temperature
 - Process temperature
@@ -22,7 +22,7 @@ is likely to fail.
 
 ---
 
-## 🧠 Machine Learning Approach
+##  Machine Learning Approach
 - Problem Type: Binary Classification
 - Target Variable: Machine failure (0 = No Failure, 1 = Failure)
 - Baseline Model: Logistic Regression
@@ -33,7 +33,7 @@ is likely to fail.
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -43,7 +43,7 @@ is likely to fail.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 IOT_Predictive_Maintenance_Project/
 │
